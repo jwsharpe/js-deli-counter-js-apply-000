@@ -5,7 +5,7 @@ function takeANumber(currentLine, customerName){
 
 var numberOfPeopleServed = 0;
 function takeANumber2(){
-  return `Welcome, you are number ${++numberOfPeopleServed} in line.`;
+  return console.log(`Welcome, you are number ${++numberOfPeopleServed} in line.`);
 }
 
 takeANumber2();
