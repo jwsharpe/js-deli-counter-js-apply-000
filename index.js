@@ -3,13 +3,12 @@ function takeANumber(currentLine, customerName){
   return `Welcome, ${customerName}. You are number ${currentLine.length} in line.`;
 }
 
-var numberOfPeopleServed = 1;
-
+var numberOfPeopleServed = 0;
 function takeANumber2(){
-  return `Welcome, you are number ${++numberOfPeopleServed++} in line.`;
+  return `Welcome, you are number ${++numberOfPeopleServed} in line.`;
 }
 
-
+takeANumber2;
 
 function nowServing(currentLine){
   if(currentLine.length === 0){return "There is nobody waiting to be served!"};
