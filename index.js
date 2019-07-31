@@ -8,7 +8,10 @@ function takeANumber2(){
   return `Welcome, you are number ${++numberOfPeopleServed} in line.`;
 }
 
-takeANumber2;
+takeANumber2();
+takeANumber2();
+takeANumber2();
+
 
 function nowServing(currentLine){
   if(currentLine.length === 0){return "There is nobody waiting to be served!"};
