@@ -3,9 +3,10 @@ function takeANumber(currentLine, customerName){
   return `Welcome, ${customerName}. You are number ${currentLine.length} in line.`;
 }
 
+var numberOfPeopleServed = 1;
+
 function takeANumber2(){
-  
-  return 
+  return `Welcome, you are number ${++numberOfPeopleServed++} in line.`;
 }
 
 
